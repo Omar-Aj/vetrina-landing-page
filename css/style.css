@@ -34,8 +34,11 @@ header .navbar li a {
     padding: 4px 8px;
     font-size: 1.1rem;
 }
+header .navbar li:hover a {
+    color: #ebb122;
+}
 header .navbar li:active a {
-    color: rgb(175, 175, 175);
+    color: #a17e24;
 }
 @media (min-width: 992px) {
     header .logo,
